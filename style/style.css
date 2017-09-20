@@ -1,0 +1,53 @@
+div.container h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+div.container h6 {
+	text-align: center;
+}
+
+form {
+	margin: 40px;
+}
+
+a[target='_blank']::before {
+	content: '\29C9';
+}
+
+td,
+th {
+	vertical-align: middle !important;
+	text-align: center !important;
+}
+
+svg {
+	height: 170px !important;
+	max-width: 100%;
+}
+
+td:first-of-type,
+td:first-of-type > div {
+	height: 185px;
+	width: 150px;
+}
+
+.cityHead {
+	width: 22%;
+}
+
+.chartHead {
+	width: 26%;
+}
+
+.subheading {
+	font-size: .5em;
+}
+
+.cityName {
+	font-size: .8em;
+}
+
+.average {
+	font-size: .7em;
+}
